@@ -34,15 +34,15 @@ public class PredicateFunctionalInterface {
 
 
     public static void main(String[] args) {
-	    List<String> list = new ArrayList<String>();
-	    list.add("Icecream");
+        List<String> list = new ArrayList<String>();
+        list.add("Icecream");
         list.add("Water");
         list.add("Ice");
         list.add("Gas");
         list.add("Ice");
         list.add("Java");
-/*Functional Interface*/
-        predicateFunctional pred =  PredicateFunctionalInterface::findPattern;
+        /*Functional Interface*/
+        predicateFunctional pred = PredicateFunctionalInterface::findPattern;
         System.out.println(pred.findPattern(list));
     }
 
